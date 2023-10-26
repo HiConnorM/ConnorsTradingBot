@@ -111,3 +111,5 @@ ENV/
 *.swp
 *.swo
 *.bak
+
+config.py

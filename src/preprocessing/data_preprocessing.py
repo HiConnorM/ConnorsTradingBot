@@ -1,8 +1,17 @@
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
+from benzinga_news import fetch_and_analyze_sentiment
+
+
 
 def load_data(filename):
-    # Load your data from CSV or any other format
+   def load_data(ticker, ...):  # Existing parameters
+    # Existing code ...
+
+    # Fetch and analyze sentiment for the ticker
+    sentiment_data = fetch_and_analyze_sentiment(ticker)
+    # You can now integrate this sentiment_data into your dataframe or dataset
+
     pass
 
 def normalize_data(data):
